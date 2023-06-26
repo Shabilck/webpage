@@ -1,0 +1,204 @@
+/* CSS for the Header Section */
+#header {
+  background-color: #f2f2f2;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%;
+}
+
+#header img {
+  width: 100px; 
+  height: auto;
+}
+
+#header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#header ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+#header ul li a{
+  text-decoration: none;
+  color: #333;
+  padding: 5px;
+  font-weight: bolder;
+}
+
+#header ul li a:hover {
+  color: gray;
+ transform: scale(1.25);
+  
+}
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  padding: 10px;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+.dropdown:hover .dropdown-menu li{
+  margin: 10px;
+}
+#marq{
+  color: white;
+  font-weight: bold;
+   background-color: #C0C0C0;
+}
+.div2{
+  background-color: #e6ebee;
+  display: flex;
+  padding: 60px;
+  justify-content: space-evenly;
+}
+#div3 h1{
+  text-align: center;
+}
+.footer-social ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+.footer-social ul li a {
+  color: #888;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+.footer-social ul li {
+  margin-bottom: 10px;
+}
+.footer-social ul li a:hover {
+  color: #333;
+}
+.footer-social ul li a i {
+  font-size: 18px;
+  margin-right: 10px;
+}
+.footer-bottom {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.footer-bottom p {
+  font-size: 14px;
+  margin: 0;
+}
+footer{
+  background-color: whitesmoke;
+}
+#link li{
+  text-decoration: none;
+}
+#link li a{
+  text-decoration: none;
+}
+p{
+    font-size: 20px;
+    font-weight: 300;
+    color: #ffacd;
+}
+#ab{
+  background-image: url('2.jpg');
+  background-size: cover;
+  color: black;
+  margin: 0;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.bg{
+  background-image: url('2.jpg');
+}
+.in{
+  display: flex;
+  margin: 0;
+}
+.in img{
+  height: 35px;
+  width: 42px;
+  margin: 0;
+}
+.in h2{
+  margin: 0;
+}
+h2{
+  margin: 0;
+}
+input{
+  margin: 5px;
+}
+.cr{
+  display: flex;
+  justify-content: space-between;
+  padding-right: 55px;
+  padding-left: 10px;
+}
+.fm{
+  height: 370px;
+  border: 1px solid;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 8px;
+}
+input{
+  height: 20px;
+  width: 400px;
+  padding: 5px;
+
+}
+textarea{
+  width: 400px;
+  height: 80px;
+  padding: 9px;
+  margin: 50x;
+}
+.button{
+  height: 30px;
+  border-radius: 8px;
+  background-color: red;
+  border-color: red;
+  color: white;
+  font-weight: bolder;
+}
+.button:hover{
+  transform: scale(1.05);
+  background-color: green;
+  border-color: green;
+}
+.serv{
+  display: flex;
+  padding: 10px;
+  border: 1px solid grey;
+  margin: 6px;
+}
+.serv img{
+  padding-right: 16px;
+}
+.pad{
+  padding-top: 80px;
+}
+.serv:hover{
+  transform: scale(1.005);
+  box-shadow: 3px 3px 1px grey;
+}
+body{
+  margin: 0;
+}
+.main{
+  margin: 0px;
+  padding: 0px;
+  margin-top: 120px;
+}
